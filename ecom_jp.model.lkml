@@ -11,7 +11,7 @@ persist_with: ecommerce_etl
 
 # FROM
 explore: order_items {
-  label: "(1) オーダー、アイテム、ユーザー関連"
+  label: "オーダー、アイテム、ユーザー関連"
   view_name: order_items
   view_label: "オーダー"
   always_filter: {
