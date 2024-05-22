@@ -2,11 +2,11 @@ connection: "bigquery-handson"
 label: "ECサイトデータ_BQ"
 include: "/*.view" # include all the views
 
-datagroup: ecommerce_etl {
-  sql_trigger: SELECT max(created_at) FROM ecomm.events ;;
-  max_cache_age: "24 hours"}
+#datagroup: ecommerce_etl {
+#  sql_trigger: SELECT max(created_at) FROM ecomm.events ;;
+#  max_cache_age: "24 hours"}
 
-persist_with: ecommerce_etl
+#persist_with: ecommerce_etl
 ############ Base Explores #############
 
 # FROM
